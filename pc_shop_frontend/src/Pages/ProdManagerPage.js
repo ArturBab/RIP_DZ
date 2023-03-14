@@ -195,11 +195,6 @@ function ProdManagerPage() {
                                             <Table striped bordered hover key = {index}>
                                                 <ManagerProd prod={item}/>
                                             </Table>
-                                        /*<Col key={index}>
-                                                <ManagerProd
-                                                    prod={item}
-                                                />
-                                            </Col>*/
                                         )
                                     })}
                                 </Row>
