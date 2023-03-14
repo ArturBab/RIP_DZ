@@ -14,7 +14,6 @@ class Categories(models.Model):
         db_table = 'categories'
 
 
-
 class Status(models.Model):
     name = models.CharField(max_length=45, blank=True, null=True)
 
